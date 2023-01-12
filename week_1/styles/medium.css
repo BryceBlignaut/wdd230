@@ -1,0 +1,9 @@
+@media screen and (min-width: 850px){
+    footer, header{
+        background-color:#003DA5;
+        border: 4px black solid;
+        border-radius: 1rem;
+        align-items: left;
+    }
+
+}
