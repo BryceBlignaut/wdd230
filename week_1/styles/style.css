@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Oxygen&display=swap');
+
+:root{
+--heading-font: 'Noto Serif', serif;
+--paragraph-font: 'Oxygen', sans-serif;
+}
+
+li {
+    font-family: var(--paragraph-font);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #003DA5;
+    color: white;
+    border: 2px whitesmoke solid;
+    font-family: var(--heading-font);
+}
+
+header h1{
+    text-align: center;
+}
+
+#content {
+    margin: 0 auto;
+    width:800px
+}
+
+header div:nth-child(2){
+    width: 100%;
+}
+
+img {
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    background-color: #003DA5;
+    color: white;
+    padding: 5px;
+    font-family: var(--paragraph-font);
+}
+main h2 {
+    text-align: center;
+    font-family: var(--heading-font);
+}
