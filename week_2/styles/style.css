@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+:root{
+    --paragraph-font: 'Work Sans', sans-serif;
+    }
+
+
+body {
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: var(--paragraph-font);
+}
+
+footer, header{
+    background-color:#003DA5;
+    border: 4px black solid;
+    border-radius: 1rem;
+    align-items: center;
+    color: aliceblue;
+    text-align: center;       
+}
+
+#section_1 {
+    grid-area: s1;
+    border: 2px black solid;
+    border-radius: 1rem;
+}
+
+#section_2 {
+    grid-area: s2;
+    border: 2px black solid;
+    border-radius: 1rem;
+}
+
+#section_3 {
+    grid-area: s3;
+    border: 2px black solid;
+    border-radius: 1rem;
+}
+
+.design_name_heading {
+    align-items: center;
+    align-content: center;
+    border: 2px black solid;
+    border-radius: 1rem;
+    text-align: center;
+    background-color:#003DA5;
+    color: azure;
+}

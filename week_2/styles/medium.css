@@ -1,0 +1,97 @@
+
+/*  */ 
+@media screen and (min-width: 600px){
+    footer, header{
+        background-color:#003DA5;
+        border: 4px black solid;
+        border-radius: 1rem;
+        align-items: center;
+        color: aliceblue;
+        text-align: center;       
+    }
+
+    main {
+        display: grid;
+        grid-template-areas: "s1 s2"
+                             "s3 s3";
+
+    }
+
+    #section_1 {
+        grid-area: s1;
+        border: 2px black solid;
+        border-radius: 1rem;
+        text-align: center;
+    }
+    
+    #section_2 {
+        grid-area: s2;
+        border: 2px black solid;
+        border-radius: 1rem;
+        text-align: center;
+    }
+    
+    #section_3 {
+        grid-area: s3;
+        border: 2px black solid;
+        border-radius: 1rem;
+        text-align: center;
+    }
+
+    .design_name_heading {
+        align-items: center;
+        align-content: center;
+        border: 2px black solid;
+        border-radius: 1rem;
+        background-color:#003DA5;
+        color: azure;
+    }
+
+}
+
+@media screen and (min-width: 850px){
+    footer, header{
+        background-color:#003DA5;
+        border: 2px black solid;
+        border-radius: 1rem;
+        align-items: center;
+        color: aliceblue;
+        text-align: center;       
+    }
+
+    main {
+        display: grid;
+        grid-template-areas: "s1 s2 s3";
+        text-align: center;
+
+    }
+
+    #section_1 {
+        grid-area: s1;
+        border: 2px black solid;
+        border-radius: 1rem;
+    }
+    
+    #section_2 {
+        grid-area: s2;
+        border: 2px black solid;
+        border-radius: 1rem;
+    }
+    
+    #section_3 {
+        grid-area: s3;
+        border: 2px black solid;
+        border-radius: 1rem;
+    }
+
+    .design_name_heading {
+        align-items: center;
+        align-content: center;
+        border: 2px black solid;
+        border-radius: 1rem;
+        text-align: center;
+        background-color:#003DA5;
+        color: azure;
+    }
+
+}
