@@ -1,0 +1,13 @@
+@media (min-width: 650px) {
+
+    nav {
+        margin: 0 auto;
+        max-width: 800px;
+        background-color: #393E46;
+        display: flex;
+        flex-direction: row;        
+    }
+
+
+
+}

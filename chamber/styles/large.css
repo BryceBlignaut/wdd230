@@ -1,0 +1,55 @@
+@media (max-width: 800px){
+
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #hero {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color: #393E46;
+        color: #EEEEEE;
+        height: 100px;
+    }
+    
+    #event {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color: #393E46;
+        color: #EEEEEE;
+        height: 100px;
+    }
+    
+    #weather {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color: #393E46;
+        color: #EEEEEE;
+        height: 100px;
+    }
+    
+    #news_release {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color: #393E46;
+        color: #EEEEEE;
+        height: 100px;
+    }
+    
+    #spotlight_1 {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color: #393E46;
+        color: #EEEEEE;
+        height: 100px;
+    }
+    
+    #spotlight_2 {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color: #393E46;
+        color: #EEEEEE;
+        height: 100px;
+    }
+}

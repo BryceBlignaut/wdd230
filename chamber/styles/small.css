@@ -1,0 +1,129 @@
+/* Small/Phone View ***************/
+
+header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+}
+
+header h1 {
+    grid-column: 2;
+    align-items: center;
+    align-self: center;
+}
+
+.facebook {
+    grid-column: 3;
+    margin: 10px;
+}
+
+.twitter {
+    align-items: center;
+    grid-column: 4;
+    margin: 10px;
+}
+
+.logo {
+    display: flex;
+    grid-column: 1;
+    margin: 5px;
+}    
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: #393E46;
+}
+.navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #EEEEEE;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+#menu::before {
+	content: "≡";
+	font-size: 2rem;
+}
+
+.navigation a:hover, navigation a:active {
+	color:#393E46 ;
+	background-color: #EEEEEE;
+}
+
+
+.responsive li {
+	display: block;
+}
+
+.responsive #menu::before {
+	content: "X";
+}
+
+#hero {
+    margin: 0 auto;
+	max-width: 760px;
+	background-color: #393E46;
+    color: #EEEEEE;
+    height: 100px;
+}
+
+#event {
+    margin: 0 auto;
+	max-width: 760px;
+	background-color: #393E46;
+    color: #EEEEEE;
+    height: 100px;
+}
+
+#weather {
+    margin: 0 auto;
+	max-width: 760px;
+	background-color: #393E46;
+    color: #EEEEEE;
+    height: 100px;
+}
+
+#news_release {
+    margin: 0 auto;
+	max-width: 760px;
+	background-color: #393E46;
+    color: #EEEEEE;
+    height: 100px;
+}
+
+#spotlight_1 {
+    margin: 0 auto;
+	max-width: 760px;
+	background-color: #393E46;
+    color: #EEEEEE;
+    height: 100px;
+}
+
+#spotlight_2 {
+    margin: 0 auto;
+	max-width: 760px;
+	background-color: #393E46;
+    color: #EEEEEE;
+    height: 100px;
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+}
