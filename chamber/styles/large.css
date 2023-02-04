@@ -1,10 +1,24 @@
-@media (max-width: 800px){
+@media (min-width: 900px){
 
     nav {
+        margin: 0 auto;
+        max-width: 1000px;
+        background-color: #393E46;
+    }
+    .navigation {
+        /* border: solid black 20px; */
         display: flex;
         flex-direction: row;
+        margin: 0;
+        padding: 0;
     }
-
+    .navigation li {
+        display: block;
+    }
+    #menu {
+        display: none;
+    }
+    
     #hero {
         margin: 0 auto;
         max-width: 760px;

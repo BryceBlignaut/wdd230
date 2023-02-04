@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+:root{
+    --paragraph-font: 'Montserrat', sans-serif;
+    --heading-font: 'Bebas Neue', sans-serif;
+    }
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+body {
+    font-family: var(--heading-font); 
+    background-color: white;
+}
+
+header, footer{
+    background-color: white;
+    border: 1px black solid;        
+}
+
+.header-top{
+    display: grid;    
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.header-icons{    
+    text-align: center;
+}
+
+.header-today{
+    text-align: center;
+    background-color: rgba(0,0,0,0.1);        
+    padding: .25rem;
+}
+
+/* Footer */
+.footer-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+.footer-logo{
+    margin-left: 75px;
+}
+
+.footer-base{
+    text-align: center;
+}
+
+.footer-contact{
+    text-align: center;
+}
+
+.footer-map{
+    text-align: center;    
+}
+
+footer hr{
+    height: 1px;
+    background-color: #393E46;    
+    border: none;        
+}
+
+/* Nav bar styling */
+
+nav ul{
+    /* display: flex; */
+    display: none;
+    flex-direction: column;    
+    width: 100%;
+    padding-inline-start: 0px;
+    background-color:#393E46; 
+}
+
+nav ul li{
+    list-style: none;    
+    flex: 1;
+    border: 1px black solid;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: whitesmoke; 
+    text-align: center;
+    padding: .5rem;
+}
+
+nav ul li a.active{
+    background-color: rgba(0,0,0,0.2);
+}
+
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+/** Hamburger menu **/
+
+#hamburger-menu{
+    background-color: whitesmoke;
+    border: 0;    
+    margin: 0;
+}
+
+#hamburger-x{
+    display: none;
+}
+
+#hamburger-equiv{
+    display: inline;
+}
+
+nav ul.menu-active{
+    display: flex;
+}
+
+#hamburger-x.menu-active{
+    display: inline;
+}
+
+#hamburger-equiv.menu-active{
+    display: none;
+}
+
+/** Main Page **/
+
+.home-main section{
+    border: 2px solid black;
+    padding: 1rem;
+    margin: .5rem;
+    background-color: #CCCCCC;
+}
+
+.home-main div{
+    border: 1px solid black;
+    margin: .5rem;
+    padding: 1rem;
+}
+
+.main-hero{
+    grid-area: h;
+    background-image: url("../images/TetonRange.jpg");
+    background-repeat: no-repeat;
+    color:whitesmoke;
+    position: relative;
+}
+.main-hero-call_to_action {
+    width: 150px;
+    position: absolute;
+    float:right;
+    top: 500px;
+    background-color: #393E46;
+}
+
+.main-hero-call_to_action h3 {
+    text-align: center;
+}
+
+.main-event{
+    grid-area: e;
+}
+
+.main-news{
+    grid-area: n;
+}
+
+.main-weather{
+    grid-area: w;
+}
+
+.main-join{
+    grid-area: j;
+    display: none;
+}
+
+.main-spotlight{
+    grid-area: x;
+}
+
+.main-spotlight div{    
+    background-color: #DDDDDD;
+}
+
+.spotlight3{    
+    display: none;    
+}
+
+.banner{
+    display: none;
+}
+
+.banner.active{
+    display: block;
+    text-align: center;
+}
+
