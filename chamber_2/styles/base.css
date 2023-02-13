@@ -144,8 +144,6 @@ nav ul.menu-active{
 
 .main-hero{
     grid-area: h;
-    background-image: url("../images/TetonRange.jpg");
-    background-repeat: no-repeat;
     color:whitesmoke;
     position: relative;
 }
@@ -160,6 +158,11 @@ nav ul.menu-active{
 .main-hero-call_to_action h3 {
     text-align: center;
 }
+
+.main-hero-heading{
+    position: absolute;
+}
+
 
 .main-event{
     grid-area: e;

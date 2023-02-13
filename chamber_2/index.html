@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/medium.css" />
     <link rel="stylesheet" href="./styles/large.css" />    
     <script src="./scripts/header-footer.js" defer></script>
+    <script src="./scripts/windchill.js" defer></script>
   </head>
   <body>
     <header>
@@ -47,7 +48,14 @@
     </header>
     <main class="home-main">
       <section class="main-hero">
-        <h3>Welcome to Jackson Hole</h3>
+        <h3 id = main-hero-heading>Welcome to Jackson Hole</h3>
+          <picture>
+            <source media="(max-width: 600px)" srcset="./images/wdd230-org-600.jpg">
+            <source media="(min-width:600px) and (max-width:900px)" srcset="./images/wdd230-org-600.jpg">
+            <source id="large-pic" media="(min-width:900px)" srcset="./images/wdd230-org-800.jpg">
+            <img src="./images/wdd230-org.jpg" alt="Week 6">
+          </picture>
+
         <div class = 'main-hero-call_to_action'>
             <h3>Join The Chamber</h3>
         </div>     
@@ -64,13 +72,14 @@
       </section>
       <section class="main-weather">
         <h3>Current Weather</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.</p>
+        <div>
+          <img id="weathericon" src="images/cloud-sun.svg">
+          <h2><span id="temperature">5</span>&deg; F</h2>
+        </div>
+        <h2 id="weatherdesc">Clear</h2>
+        <hr>
+        <h3>Wind Speed: <span id="windspeed">5</span> mph</h3>
+        <h3>Wind Chill: <span id="windchill">5</span></h3>
       </section>
       <section class="main-news">
         <h3>Idaho Man Peforms Backflip On Ski Hill</h3>

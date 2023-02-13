@@ -20,8 +20,7 @@ function toggleMenu(){
 document.querySelector("#hamburger-menu").addEventListener('click', toggleMenu);
 
 // Pop up Banner Every Tuesday and Monday
-let DayWeek = getDay(fulldate);
-
-if (DayWeek == 1 || DayWeek == 2) {
-    document.querySelector("#banner").classList.add('active')
+var messagedate = new Date();
+if(messagedate.getDay() == 1 || messagedate.getDay() == 2){
+    document.querySelector(".banner").classList.add('active')
 }
