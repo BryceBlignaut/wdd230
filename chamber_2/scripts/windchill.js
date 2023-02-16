@@ -17,4 +17,4 @@ function setWindChill(windspeed, temp){
     windChillSpan.innerHTML = windchill;
 }
 
-setWindChill(5, 5);
+setWindChill(10, 5);
