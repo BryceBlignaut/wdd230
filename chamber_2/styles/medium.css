@@ -16,5 +16,16 @@
     .main-spotlight{
         display: flex;
     }
+    .main-containers{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    .main-containers img:hover{box-shadow: 0 0 50px #333;}
+    
+    .discover-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 
 }
