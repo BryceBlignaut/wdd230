@@ -213,3 +213,114 @@ nav ul.menu-active{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  input[type="submit"] {
+    background-color: #393E46;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 5px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #CCCCCC;
+    color: #393E46;
+  }
+
+  .fireworks-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  /* Style each firework div */
+  .firework {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #393E46;
+    position: relative;
+    animation-name: explode;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+  
+  /* Define the animation keyframes for each firework */
+  @keyframes explode {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(10);
+      opacity: 0;
+    }
+  }
+  
+  /* Animate each firework with a delay */
+  .firework:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  
+  .firework:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  
+  .firework:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  
+  .firework:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+  
+  .firework:nth-child(5) {
+    animation-delay: 1s;
+  }
+
+#thankyou{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+#thankyou-p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
