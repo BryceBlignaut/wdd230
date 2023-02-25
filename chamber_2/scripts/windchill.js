@@ -33,3 +33,9 @@ else{
     visitspan.textContent = daysSinceLastVisit;
 }
 localStorage.setItem("lastVisit", today.toLocaleDateString());
+
+// This code is for call to action link
+const myDiv = document.querySelector('.main-hero-call_to_action');
+myDiv.addEventListener('click', () => {
+  window.location.href = 'thankyou.html';
+});
