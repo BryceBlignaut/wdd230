@@ -18,24 +18,3 @@ function setWindChill(windspeed, temp){
 }
 
 setWindChill(10, 5);
-
-const MILLIS_PER_DAY = 24 * 60 * 60 * 1000;
-let today = new Date();
-let lastVisitString = localStorage.getItem("lastVisit");
-let visitspan = document.querySelector('#days-since-visit');
-
-if (lastVisitString==null){        
-    visitspan.textContent = '0'
-}
-else{
-    lastVisitDate=new Date(lastVisitString);
-    daysSinceLastVisit = Math.floor((today.getTime() - lastVisitDate.getTime()) / MILLIS_PER_DAY);
-    visitspan.textContent = daysSinceLastVisit;
-}
-localStorage.setItem("lastVisit", today.toLocaleDateString());
-
-// This code is for call to action link
-const myDiv = document.querySelector('.main-hero-call_to_action');
-myDiv.addEventListener('click', () => {
-  window.location.href = 'thankyou.html';
-});

@@ -12,26 +12,27 @@
     <link rel="stylesheet" href="./styles/large.css" />    
     <script src="./scripts/header-footer.js" defer></script>
     <script src="./scripts/windchill.js" defer></script>
+    <script src="./scripts/discover.js" defer></script>
   </head>
   <body>
     <header>
       <div class="header-top">        
           <div class="header-logo">
-            <a href="index.html"><img src="./images/logo_2.png" /></a>            
+            <a href="index.html"><img src="./images/logo_2.png" alt="logo"/></a>            
           </div>          
           <div class="header-title">
             <h1>Jackson Hole</h1>
             <h2>Chamber of Commerce</h2>
           </div>
           <div class="header-icons">
-            <a href="https://www.twitter.com" target="_blank"><img src="./images/twitter.svg" /></a>
-            <a href="https://www.facebook.com" target="_blank"><img src="./images/facebook.svg" /></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="./images/twitter.svg" alt="twitter"/></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="./images/facebook.svg" alt = "facebook"/></a>
           </div>
       </div>
       <nav>
         <button id="hamburger-menu">
-          <span id="hamburger-x"><img src="./images/box-arrow-up.svg"></span>
-          <span id="hamburger-equiv"><img src="./images/list.svg"></span>
+          <span id="hamburger-x"><img src="./images/box-arrow-up.svg" alt = 'arrow'></span>
+          <span id="hamburger-equiv"><img src="./images/list.svg" alt="list"></span>
         </button>
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
@@ -55,39 +56,34 @@
       <br>
   
       <container class = 'main-containers'>
-        <img src="images/1.jpg" alt="Image 2" loading="lazy">
+        <img src="images/1.jpg" alt="Image 2" style="width:100%" loading="lazy">
         <p>Skiing on Lush Mountains</p>
       </container>
       <br>
   
       <container class = 'main-containers'>
-        <img src="images/jackson.jpg"  alt="Image 3" loading="lazy">
+        <img src="images/jackson.jpg"  alt="Image 3" style="width:100%" loading="lazy">
         <p>Beautiful Hotels</p>
       </container>
       <br>
   
       <container class = 'main-containers'>
-        <img src="images/river.jpg" alt="Image 4" loading="lazy">
+        <img src="images/river.jpg" alt="Image 4" style="width:100%" loading="lazy">
         <p>Great Fishing</p>
       </container>
       <br>
   
       <container class = 'main-containers'>
-        <img src="images/barn.jpg" alt="Image 5" loading="lazy">
+        <img src="images/barn.jpg" alt="Image 5" style="width:100%" loading="lazy">
         <p>Iconic Photos</p>
       </container>
       <br>
-
-      <container class = 'main-containers'>
-        <h3>It has been <span id='days-since-visit'></span> days since you last visited the page</h3>
-      </container>
-
 
     </main>
     <footer>
       <div class="footer-content">
         <div class="footer-logo">
-          <img src="./images/logo_2.png" />
+          <img src="./images/logo_2.png"  alt="logo"/>
         </div>
         <div class="footer-contact">
           <h3>Jackson Hole Chamber of Commerce</h3>
@@ -96,13 +92,13 @@
           <p>307-733-3316</p>
         </div>
         <div class="footer-map">
-          <p><img src="./images/geo-alt.svg"></p>
+          <p><img src="./images/geo-alt.svg" alt="Location"></p>
           <a href="https://www.google.com/maps/place/Jackson+Hole+Chamber+of+Commerce/@43.4794464,-110.7678217,17z/data=!3m1!4b1!4m6!3m5!1s0x53531a5d2e13c5c9:0x6d23b13bef7ef965!8m2!3d43.4794464!4d-110.765633!16s%2Fg%2F1vyn3jk_" target="_blank">Location Map</a>
         </div>
       </div>
       <hr />
       <div class="footer-base">
-        <p>&copy; <span id="currentyear"></span> | Bryce Blignaut | Rexburg, ID | Last Updated: <span id="lastmodified"></span></p>
+        <p>&copy; <span id="currentyear"></span> | Bryce Blignaut | Rexburg, ID | Last Updated: <span id="lastmodified"></span> Last Visit: <span id="last-visit"></span> days ago</p>
       </div>
     </footer>
   </body>
