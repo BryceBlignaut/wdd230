@@ -1,0 +1,33 @@
+table {
+    border: 1px gray solid;
+    border-collapse: collapse;
+
+}
+
+thead tr{
+    background-color: tan;
+}
+
+thead tr:nth-child(2) th:nth-child(1){
+    background-color: tan;
+    border-top: tan solid;
+}
+
+thead tr:nth-child(2) th{
+    background-color: tan;
+}
+
+tr{
+    background-color:red;
+}
+
+tbody tr:nth-child(even){
+    background-color: aliceblue;
+}
+
+td, th{
+    border: 1px;
+    padding: 1rem;
+    text-align: center;
+}
+
