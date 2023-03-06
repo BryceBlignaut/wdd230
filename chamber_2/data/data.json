@@ -1,0 +1,83 @@
+{
+    "businesses": [
+        {
+            "name": "Gather in Jackson Hole",
+            "address": "72 S Glenwood St, Jackson, WY 83001",
+            "phoneNumber": "(307) 264-1820",
+            "websiteUrl": "https://gatherjh.com/",
+            "imageUrl": "images/business_page/1.jpg",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "Local Restaurant & Bar",
+            "address": "55 N Cache St, Jackson, WY 83001",
+            "phoneNumber": "(307) 739-9463",
+            "websiteUrl": "https://www.localjh.com/",
+            "imageUrl": "images/business_page/2.webp",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Bin 22",
+            "address": "200 W Broadway, Jackson, WY 83001",
+            "phoneNumber": "(307) 739-9463",
+            "websiteUrl": "https://bin22jacksonhole.com/menu.php",
+            "imageUrl": "images/business_page/3.webp",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "Virginian Restaurant",
+            "address": " 740 W Broadway, Jackson, WY 83001",
+            "phoneNumber": "(307) 739-9463",
+            "websiteUrl": "https://www.virginianrestaurant.net",
+            "imageUrl": "images/business_page/4.webp",
+            "membershipLevel": "NP"
+        },
+        {
+            "name": "Miazga's",
+            "address": "399 W Broadway, Jackson, WY 83001",
+            "phoneNumber": "(307) 739-9463",
+            "websiteUrl": "https://www.miazgas.com/",
+            "imageUrl": "images/business_page/5.webp",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "Snake River Grill",
+            "address": "84 E Broadway Ave, Jackson, WY 83001",
+            "phoneNumber": "(307) 739-9463",
+            "websiteUrl": "https://www.snakerivergrill.com",
+            "imageUrl": "images/business_page/6.webp",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "Gun Barrel Steak and Game House",
+            "address": "862 W Broadway, Jackson, WY 83001",
+            "phoneNumber": "(307) 739-9463",
+            "websiteUrl": "https://jackson.gunbarrel.com/",
+            "imageUrl": "images/business_page/7.jpg",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "Liberty Burger",
+            "address": "160 N Cache St, Jackson, WY 83001",
+            "phoneNumber": "(307) 739-9463",
+            "websiteUrl": "https://www.bcrg.co/lbjh-menu/",
+            "imageUrl": "images/business_page/8.webp",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "The Blue Lion",
+            "address": "160 N Millward St, Jackson, WY 83001",
+            "phoneNumber": "(307) 739-9463",
+            "websiteUrl": "http://www.bluelionrestaurant.com",
+            "imageUrl": "images/business_page/9.webp",
+            "membershipLevel": "Gold"
+        }
+
+
+
+
+
+
+
+    ]
+}
