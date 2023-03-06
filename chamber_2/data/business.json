@@ -5,7 +5,7 @@
             "address": "72 S Glenwood St, Jackson, WY 83001",
             "phoneNumber": "(307) 264-1820",
             "websiteUrl": "https://gatherjh.com/",
-            "imageUrl": "images/business_page/1.jpg",
+            "imageUrl": "./images/business_page/1.jpg",
             "membershipLevel": "Gold"
         },
         {
@@ -14,7 +14,7 @@
             "phoneNumber": "(307) 739-9463",
             "websiteUrl": "https://www.localjh.com/",
             "imageUrl": "images/business_page/2.webp",
-            "membershipLevel": "Silver"
+            "membershipLevel": "Gold"
         },
         {
             "name": "Bin 22",
@@ -30,7 +30,7 @@
             "phoneNumber": "(307) 739-9463",
             "websiteUrl": "https://www.virginianrestaurant.net",
             "imageUrl": "images/business_page/4.webp",
-            "membershipLevel": "NP"
+            "membershipLevel": "Gold"
         },
         {
             "name": "Miazga's",
@@ -46,14 +46,14 @@
             "phoneNumber": "(307) 739-9463",
             "websiteUrl": "https://www.snakerivergrill.com",
             "imageUrl": "images/business_page/6.webp",
-            "membershipLevel": "Gold"
+            "membershipLevel": "Silver"
         },
         {
             "name": "Gun Barrel Steak and Game House",
             "address": "862 W Broadway, Jackson, WY 83001",
             "phoneNumber": "(307) 739-9463",
             "websiteUrl": "https://jackson.gunbarrel.com/",
-            "imageUrl": "images/business_page/7.jpg",
+            "imageUrl": "images/business_page/7.jpeg",
             "membershipLevel": "Bronze"
         },
         {
@@ -70,7 +70,7 @@
             "phoneNumber": "(307) 739-9463",
             "websiteUrl": "http://www.bluelionrestaurant.com",
             "imageUrl": "images/business_page/9.webp",
-            "membershipLevel": "Gold"
+            "membershipLevel": "Silver"
         }
 
 

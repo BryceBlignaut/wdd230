@@ -324,3 +324,77 @@ form {
     justify-content: center;
     text-align: center;
 }
+
+.directory-main{
+    width: 100%;
+}
+
+#directory-selector{
+    width: 100%;
+    text-align: center;
+}
+
+#directory-selector button{
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: 5px;
+    background-color: grey;
+    border: 1px #393E46;
+}
+
+#directory-selector button.active{
+    background-color: #393E46;
+}
+
+/* Cards view */
+
+.directory-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-items: center;
+    color: #fff;
+}
+
+.directory-cards section{
+    text-align: center;    
+    border: 2px solid grey;    
+    width: 300px;
+    background-color: #393E46;
+    padding: 1rem;
+    margin: .5rem;
+}
+
+.directory-cards .gold-member{
+    box-shadow: inset 1rem 1rem rgba(255, 217, 0, 0.63);
+}
+
+/* List View */
+
+.directory-list{    
+    display: grid;
+    justify-items: center;   
+    padding: 1rem;    
+}
+
+.directory-list section img{
+    display: none;
+}
+
+.directory-list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    width: 70%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.directory-list section:nth-child(odd) {
+    background-color: #fff;
+    border: 1px #393E46;
+}
+
+.directory-list section:nth-child(even) {
+    background-color: #393E46;
+    color: #fff;
+
+}
