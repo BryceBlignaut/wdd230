@@ -1,5 +1,5 @@
 const MILLIS_PER_DAY = 24 * 60 * 60 * 1000;
-let today = new Date();
+let today_1 = new Date();
 let lastVisitString = localStorage.getItem("lastVisit");
 let visitspan = document.querySelector('#last-visit');
 
@@ -8,7 +8,7 @@ if (lastVisitString==null){
 }
 else{
     lastVisitDate=new Date(lastVisitString);
-    daysSinceLastVisit = Math.floor((today.getTime() - lastVisitDate.getTime()) / MILLIS_PER_DAY);
+    daysSinceLastVisit = Math.floor((today_1.getTime() - lastVisitDate.getTime()) / MILLIS_PER_DAY);
     visitspan.textContent = daysSinceLastVisit;
 }
-localStorage.setItem("lastVisit", today.toLocaleDateString());
+localStorage.setItem("lastVisit", today_1.toLocaleDateString());
