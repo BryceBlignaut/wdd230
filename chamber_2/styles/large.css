@@ -35,4 +35,28 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+    .join-main{
+        display: grid;
+        grid-template-areas: "a b";
+        margin: 1rem auto;
+    }
+
+    #left{
+        min-width: 60%;
+        min-height: 80%;
+        margin: auto;
+        padding: 3rem;
+        border: 1px solid black;
+        grid-area: a;
+    }
+
+    #right{
+        min-width: 50%;
+        min-height: 92%;
+        margin: auto;
+        padding: 2rem;
+        border: 1px solid black;
+        grid-area: b;
+    }
+
 }
