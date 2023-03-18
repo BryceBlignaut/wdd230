@@ -27,5 +27,13 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+    .main-hero{
+        grid-area: h ;
+        position: relative;
+        background-image: url("/chamber_2/images/TetonRange_med.webp");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: auto;
+    }
 
 }

@@ -144,11 +144,16 @@ nav ul.menu-active{
 
 .main-hero{
     grid-area: h;
-    color:whitesmoke;
+    color:#333;
     position: relative;
+    background-image: url("/chamber_2/images/TetonRange_small.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    background-color: #393E46;
 }
 .main-hero-call_to_action {
-    width: 150px;
+    width: 100px;
     position: absolute;
     float:right;
     top: 500px;
@@ -160,7 +165,9 @@ nav ul.menu-active{
 }
 
 .main-hero-heading{
-    position: absolute;
+    position: static;
+    background-color: #393E46;
+
 }
 
 
@@ -402,4 +409,10 @@ form {
 #right {
     border: 1px solid black;
     padding-left: 6rem;
+}
+
+#main-button-join_us{
+    color: whitesmoke;
+    background-color: #393E46;
+    font-family: var(--heading-font);
 }

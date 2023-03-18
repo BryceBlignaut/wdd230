@@ -58,5 +58,13 @@
         border: 1px solid black;
         grid-area: b;
     }
+    .main-hero{
+        grid-area: h ;
+        position: relative;
+        background-image: url("/chamber_2/images/TetonRange.webp");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: auto;
+    }
 
 }
