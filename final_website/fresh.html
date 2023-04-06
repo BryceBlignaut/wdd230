@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Carlsbad Fruit</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+	<script src="scripts/fresh.js" defer></script>
+	<script src="scripts/last_modified.js" defer></script>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="images/bf_logo.webp" alt="Carlsbad Fruit">
+		</div>
+		<nav>
+			<ul class="nav-links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="fresh.html">Fresh</a></li>
+				<li><a href="contact.html">About Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="fresh-main">
+        <div id="form">
+            <h2>Build Your Drink!</h2>
+			<h2>Build Your Drink!</h2>
+			<h2>Build Your Drink!</h2>
+			<h2 id = "fresh-placeholder">Build Your Drink!</h2>
+			<h2>Build Your Drink!</h2>
+            <form method="GET" action="order_confirmation.html" id="fresh-form">
+                <label for="fname">First name:*</label><br>
+                    <input type="text" id="fname" name="fname" required><br>
+                    <br>
+
+                    <label for="email">Email:*</label><br>
+                    <input type="email" id="email" name="email" placeholder="example@example.com" required><br>
+                    <br>
+
+                    <label for="cell">Cell Phone:*</label><br>
+                    <input type="tel" id="cell" name="cell" required><br>
+                    <br>
+
+                    <h3>Please Select Up to 3 Fruits for your Drink (At Least 1)</h3>
+                    <select name="fruits1" id="fruits1" class="fruit-list1" required>
+                        <option value="">Fruit 1</option>
+                    </select> <br>
+                    <select name="fruits2" id="fruits2" class="fruit-list2">
+                        <option value="">Fruit 2</option>
+                    </select> <br>
+                    <select name="fruits3" id="fruits3" class="fruit-list3">
+                        <option value="">Fruit 3</option>
+                    </select><br><br>
+
+                    <label for="special-instructions">Special Instructions:</label><br>
+
+                    <textarea id="special-instructions" name="special-instructions" rows="4" cols="30"></textarea><br><br><br>
+
+
+                    <input type="submit" id="finish-button" value="Place Your Order">
+                    <br><br>
+					<p>You have previously ordered <span id="number-of-drinks"></span> drinks</p>
+
+            </form>
+	</main>		
+	<footer>
+		<div class="container">
+			<div class="footer-logo">
+				<img src="images/bf_logo.webp" alt="Carlsbad Fruit Logo">
+			</div>
+			<p>This page was last modified: <span id="lastModified"></span></p>
+			<div class="social-icons">
+				<a href="https://www.facebook.com"><i class="fab fa-facebook-f">Facebook</i></a>
+				<a href="https://www.instagram.com"><i class="fab fa-instagram">Instagram</i></a>
+				<a href="https://www.twitter.com"><i class="fab fa-twitter">Twitter</i></a>
+			</div>
+		</div>
+	</footer>
+</html>

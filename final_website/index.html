@@ -1,63 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Carlsbad Fruit</title>
+	<title>Bountiful Foods</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 	<link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
 	<script src="scripts/main.js" defer></script>
+	<script src="scripts/last_modified.js" defer></script>
 </head>
 <body>
 
 	<header>
 		<div class="logo">
-			<img src="images/Carlsbad Fruit.webp" alt="Carlsbad Fruit">
+			<img src="images/bf_logo.webp" alt="Carlsbad Fruit">
 		</div>
 		<nav>
 			<ul class="nav-links">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Fresh</a></li>
-				<li><a href="#">Contact Us</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="fresh.html">Fresh</a></li>
+				<li><a href="contact.html">About US</a></li>
 			</ul>
 		</nav>
 	</header>
-
-	<div class="hero">
-		<h1>Welcome to Carlsbad Fruit</h1>
-		<p>Discover the freshest and most delicious fruits in town</p>
-		<a href="#" class="btn">Create a Smoothie Now</a> <br>
-		<img src="images/hero_png.png" alt="Fresh Fruits">
-	</div>
-	<div class="spotlights">
-		<div class="spotlight">
-			<img src="images/carlsbad.jpg" alt="Organic Fruits">
-			<h2>California to The World! </h2>
-			<p>Amazing Fruit From Northern California</p>
-			<a href="#">Learn More</a>
+	<main>
+		<div class="hero">
+			<br>
+			<br>
+			<h1>Welcome to Bountiful Foods</h1>
+			<p>Discover the freshest and most delicious fruits in town</p>
+			<a href="fresh.html" class="btn">Create a Smoothie Now</a> <br>
+			<img src="images/hero_png.png" alt="Fresh Fruits" height="666" loading="lazy">
 		</div>
-		<div class="spotlight">
-			<img src="spotlight-2.jpg" alt="Exotic Fruits">
-			<h2>Weather</h2>
-			<p>Current Temperature: <span id="temp"></span></p>
-			<p>Current Humidity: <span id="humidity"></span></p>
-			<p>Three Day Forecast:</p>
-			<ul id="forecast"></ul>
-			<a href="#">Learn More</a>
+		<div class="spotlights">
+			<div class="spotlight">
+				<img src="images/carlsbad_1.webp" alt="beach" height="272" loading="lazy">
+				<h2>California to The World! </h2>
+				<p>Amazing Fruit From Northern California</p>
+				<a href="contact.html">Learn More</a>
+			</div>
+			<div class="spotlight">
+				<img src="images/carlsbad.webp" alt="city" height="272" loading="lazy">
+				<h1>Weather Forecast for Carlsbad, CA</h1>
+				<p id="temp">Temp: </p>
+				<p id="desc"></p>
+				<p id="humidity"></p>
+				<h3>Three Day Forecast</h3><br>
+				<div id ="forecast"></div>
+			</div>
+			<div class="spotlight">
+				<img src="images/fruit_smoothie_1.webp" alt="Juicy Fruits" height="272" loading="lazy">
+				<h2>Create a Juicy Smoothie</h2>
+				<p>Experience the juiciest and most flavorful fruits you've ever tasted</p>
+				<a href="fresh.html">Create a Smoothie Now</a>
+			</div>
 		</div>
-		<div class="spotlight">
-			<img src="images/container.jpg" alt="Juicy Fruits">
-			<h2>Create a Juicy Smoothie</h2>
-			<p>Experience the juiciest and most flavorful fruits you've ever tasted</p>
-			<a href="#">Create a Smoothie Now</a>
-		</div>
-	</div>
+	</main>
 	<footer>
 		<div class="container">
 			<div class="footer-logo">
-				<img src="images/Carlsbad Fruit.webp" alt="Carlsbad Fruit Logo">
+				<img src="images/bf_logo.webp" alt="Carlsbad Fruit Logo">
 			</div>
+			<p>This page was last modified: <span id="lastModified"></span></p>
 			<div class="social-icons">
 				<a href="https://www.facebook.com"><i class="fab fa-facebook-f">Facebook</i></a>
 				<a href="https://www.instagram.com"><i class="fab fa-instagram">Instagram</i></a>
